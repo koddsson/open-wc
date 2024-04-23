@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "esnext",
+    "declaration": true,
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext", "dom"],
+    "checkJs": true,
+    "isolatedModules": true,
+    "moduleResolution": "Bundler",
+    "experimentalDecorators": true
+  },
+  "include": ["./*.ts", "./test/*.ts"],
+  "isolatedModules": true
+}
